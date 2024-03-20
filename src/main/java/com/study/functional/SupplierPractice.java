@@ -4,6 +4,7 @@ import java.util.function.Supplier;
 public class SupplierPractice {
 
     public static void main(String[] args) {
+        // Supplier : 파라미터 없이 Return 만 존재
         Supplier<String> stringSupplier = () -> {
             return "Hello world";
         };
